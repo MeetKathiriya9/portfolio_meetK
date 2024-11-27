@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="TalkFusion"
+              description="Personal Chat Room or Workspace to share Messages and hangout with friends build with react.js, node.js, and Firebase Firestore. Have features which allows user for realtime messaging as well as supports reactions on messages, restrict bad words, sentimate analysis, translate messages into other language by just one click and many more."
+              ghLink="https://github.com/MeetKathiriya9/TalkFusion"
             />
           </Col>
 
@@ -36,10 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Dream Estate"
+              description="SYSTEM FOR REAL ESTATE MANAGEMENT. This project is about real estate industry which includes frontend and backend in React Js, Vite JS, Node Js, Express JS with database functionalities like Add New Product, Search Products and many like E-Commerce Project."
+              ghLink="https://github.com/MeetKathiriya9/DreamEstate.git"
             />
           </Col>
 
@@ -47,46 +45,45 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Lafka Food"
+              description="SYSTEM FOR SHOPPING TO FOOD ITEMS. Developed this project with React Js. There are many functionalities in this project like Add to cart, Api calling etc. "
+              ghLink="https://github.com/MeetKathiriya9/Lafka_Food.git"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Weather App"
+              description="SYSTEM FOR GETTING REAL TIME WEATHER INFORMATION FROM API. This tool serves the information about weather from API and help us to know what situation is there in any specific city. With it you can know the predicted time of sunrise and sunset of particular city. 
+"
+              ghLink="https://github.com/MeetKathiriya9/weather-app.git"
+              demoLink="https://weather-app-amber-mu.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={editor}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="LOGIS SAMPLE WEBSITE"
+              description="Developed this website with HTML And CSS (Responsive Website) ."
+              ghLink="https://github.com/MeetKathiriya9/Logis_sample.git"
+              demoLink="https://heroic-florentine-253ac8.netlify.app" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="TextAssist.ai"
+              description="textassist.ai leverages cutting-edge AI to revolutionize text assistance, offering seamless solutions for paraphrasing, summarization, translation, and beyond. Redefine productivity and elevate your creative expression with innovation at your fingertips." 
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://textassist.coderkubes.com"
             />
-          </Col>
+           </Col>
         </Row>
       </Container>
     </Container>
